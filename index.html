@@ -18,51 +18,53 @@
     rel="stylesheet">
   </head>
   <body>
-    <header>
-      <div class="top-line">
-        <p class="web-studio-logo" lang="eng">
-          <span class="web-studio-logo-blue">Web</span><span class="web-studio-logo-black">Studio</span>
-        </p>
-        <nav>
-          <div class="razdely">
-            <a href="/studio">Студия</a>
-            <p class="porfolio-nav">Портфолио</p>
-            <p>Контакты</p>
-          </div>
-        </nav>
-        <div class="phone-mail">
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          <p class="top-line-phone">+38 096 111 11 11</p>
-        </div>
-      </div>
-    </header>
     <main>
+      <header>
+        <div class="top-line">
+          <a href="/webstudio" class="web-studio-logo" lang="eng">
+            <span class="web-studio-logo-blue">Web</span><span class="web-studio-logo-black">Studio</span>
+          </a>
+          <nav>
+            
+            <ul class="razdely">
+              <li><a href="/studio">Студия</a></li>
+              <li class="porfolio-nav">Портфолио</li>
+              <li>Контакты</li>
+            </ul>
+          </nav>
+          <ul class="phone-mail">
+            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="top-line-phone">+38 096 111 11 11</li>
+          </ul>
+        </div>
+      </header>
       <section class="greeting">
         <h1 class="greeting-title">Эффективные решения для вашего бизнеса</h1>
         <button class="zakazat-uslugu">Заказать услугу</button>
       </section>
       <section class="osobennosti">
         <div class="osobennosti-container">
-          <div class="osobennosti-item">
-            <h4 class="osobennosti-title">Внимание к деталям</h4>
+          <li class="osobennosti-item">
+            <h3 class="osobennosti-title">Внимание к деталям</h4>
             <p class="osobennosti-description">Идейные соображения, а также начало повседневной работы по формированию
               позиции.</p>
-          </div>
-          <div class="osobennosti-item">
-            <h4 class="osobennosti-title">Пунктуальность</h4>
+          </li>
+          <h2>Особенности</h2>
+          <li class="osobennosti-item">
+            <h3 class="osobennosti-title">Пунктуальность</h4>
             <p class="osobennosti-description">Задача организации, в особенности же рамки и место обучения кадров влечет
               за собой.</p>
-          </div>
-          <div class="osobennosti-item">
-            <h4 class="osobennosti-title">Планирование</h4>
+          </li>
+          <li class="osobennosti-item">
+            <h3 class="osobennosti-title">Планирование</h4>
             <p class="osobennosti-description">Равным образом консультация с широким активом в значительной степени
               обуславливает.</p>
-          </div>
-          <div class="osobennosti-item">
-            <h4 class="osobennosti-title">Современные технологии</h4>
+            </li>
+          <li class="osobennosti-item">
+            <h3 class="osobennosti-title">Современные технологии</h4>
             <p class="osobennosti-description">Значимость этих проблем настолько очевидна, что реализация плановых
               заданий.</p>
-          </div>
+            </li>
   
         </div>
   
@@ -70,35 +72,41 @@
       <section class="who-are-we">
         <h2 class="what-are-we-title">Чем мы занимаемся</h2>
         <div class="who-are-we-container">
-          <img src="./img/box 1.jpg" alt="box1" class="who-are-we-img">
-          <img src="./img/box 2.jpg" alt="box2" class="who-are-we-img">
-          <img src="./img/box 3.jpg" alt="box3" class="who-are-we-img">
+          <ul>
+          <li><img src="./img/box 1.jpg" alt="box1" class="who-are-we-img"></li>
+          <li><img src="./img/box 2.jpg" alt="box2" class="who-are-we-img"></li>
+          <li><img src="./img/box 3.jpg" alt="box3" class="who-are-we-img"></li>
+          </ul>
         </div>
       </section>
   
       <section class="our-team">
         <h2 class="our-team-header">Наша команда</h2>
         <div class="our-team-container">
-          <div class="our-team-item">
-            <img src="./img/team_1.jpg" alt="team1" width="270px" class="our-team-photo">
-            <h4 class="our-team-title">Игорь Демьяненко</h4>
-            <p class="our-team-description">Product Designer</p>
-          </div>
-          <div class="our-team-item">
-            <img src="./img/team_2.jpg" alt="team2" width="270px" class="our-team-photo">
-            <h4 class="our-team-title">Ольга Репина</h4>
-            <p class="our-team-description">Frontend Developer</p>
-          </div>
-          <div class="our-team-item">
-            <img src="./img/team_3.jpg" width="270px" alt="team3" class="our-team-photo">
-            <h4 class="our-team-title">Николай Тарасов</h4>
-            <p class="our-team-description">Marketing</p>
-          </div>
-          <div class="our-team-item">
-            <img src="./img/team_4.jpg" width="270px" alt="team4" class="our-team-photo">
-            <h4 class="our-team-title">Михаил Ермаков</h4>
-            <p class="our-team-description">UI Designer</p>
-          </div>
+          <ul>
+            <li class="our-team-item">
+              <img src="./img/team_1.jpg" alt="team1" width="270px" class="our-team-photo">
+              <h3 class="our-team-title">Игорь Демьяненко</h4>
+              <p lang="eng" class="our-team-description">Product Designer</p>
+            </li>
+            <li class="our-team-item">
+              <img src="./img/team_2.jpg" alt="team2" width="270px" class="our-team-photo">
+              <h3 class="our-team-title">Ольга Репина</h4>
+              <p lang="eng" class="our-team-description">Frontend Developer</p>
+            </li>
+            <li class="our-team-item">
+              <img src="./img/team_3.jpg" width="270px" alt="team3" class="our-team-photo">
+              <h3 class="our-team-title">Николай Тарасов</h4>
+              <p lang="eng" class="our-team-description">Marketing</p>
+            </li>
+            <li class="our-team-item">
+              <img src="./img/team_4.jpg" width="270px" alt="team4" class="our-team-photo">
+              <h3 class="our-team-title">Михаил Ермаков</h4>
+              <p lang="eng" class="our-team-description">UI Designer</p>
+            </li>
+
+          </ul>
+          
   
         </div>
       </section>
@@ -106,14 +114,18 @@
     </main>
     <footer>
       <div class="footer-container">
-        <p class="web-studio-footer" lang="eng">
+        <a href="/webstudio" class="web-studio-footer" lang="eng">
           <span class="web-studio-logo-blue">Web</span><span class="web-studio-logo-white">Studio</span>
-        </p>
+        </a>
         <address class="adress-footer">
+          <ul>
+            <li class="adress-footer-town">г. Киев, пр-т Леси Украинки, 26</li>
+            <li class="mail-footer">info@example.com</li>
+            <li class="tel-footer">+38 099 111 11 11</li>
+
+          </ul>
   
-          <p class="adress-footer-town">г. Киев, пр-т Леси Украинки, 26</p>
-          <p class="mail-footer">info@example.com</p>
-          <p class="tel-footer">+38 099 111 11 11</p>
+          
   
         </address>
       </div>
