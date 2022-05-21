@@ -47,14 +47,22 @@ ul{
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
+   
     
     
 }
 .web-studio-logo-blue{
     color: #2196F3;
+    text-decoration: none;
 }
 .web-studio-logo-black {
     color: #000000;
+
+}
+
+.web-studio-logo-white {
+    color: #FFFFFF;
+    text-decoration: none;
 
 }
 
@@ -240,7 +248,7 @@ padding-right: 50px;
 
 }
 .our-team {
-    
+    margin-top: 94px;
     position: absolute;
     width: 100%;
     height: 648px;
@@ -323,6 +331,9 @@ padding-right: 50px;
     height: 252px;
     top: 2097px;
     background: #2F303A;
+    margin-top: 94px;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -334,6 +345,7 @@ padding-right: 50px;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
+    
 }
 
 .adress-footer {
@@ -341,37 +353,28 @@ padding-right: 50px;
     padding-top: 20px;
     width: 231px;
     height: 81px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    display: flex;
+    flex-direction: column;
     
 }
 
 .adress-footer-town {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
+    
     color: #FFFFFF;
     padding-bottom: 9px;
+    text-decoration: none;
 }
-.mail-footer {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
+.mail-tel-footer {
+    
     color: rgba(255, 255, 255, 0.6);
     padding-bottom: 9px;
+    text-decoration: none;
 }
 
-.tel-footer {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    padding-bottom: 9px;
-}
+
